@@ -12,9 +12,11 @@ Toleriane Rosaliac AR + SPF - 230516-LO-427
 
 ## PROJECT PREVIEW
 
-![Design preview for the project](https://drive.google.com/drive/folders/1TN99WUCRt-H_Sk1biyLezoQv5e5rh1aZ)
+![Design preview for the project]()
 
 ### LINKS TO DESIGNS (in .xd or .psd)
+
+[.psd link](https://drive.google.com/drive/folders/1TN99WUCRt-H_Sk1biyLezoQv5e5rh1aZ)
 
 <!-- please enter link to preview designs -->
 
