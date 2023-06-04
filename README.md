@@ -8,7 +8,7 @@ Toleriane Rosaliac AR + SPF - 230516-LO-427
 
 <!-- please enter link to site preview here -->
 
-![Project live site](https://estorelabs.github.io/230516-LO-427-La-Roche-Posay-Rosaliac-AR-GENERIC/)
+[Project live site](https://estorelabs.github.io/230516-LO-427-La-Roche-Posay-Rosaliac-AR-GENERIC/)
 
 ## PROJECT PREVIEW
 
