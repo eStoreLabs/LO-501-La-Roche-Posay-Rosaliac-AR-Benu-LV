@@ -213,6 +213,7 @@ $fw--black: 900;
     position: relative;
     background-size: 100%;
     background-position: center;
+    background-repeat: no-repeat;
     transition: background-size 300ms ease-in-out;
     &:hover {
       background-size: 105%;
