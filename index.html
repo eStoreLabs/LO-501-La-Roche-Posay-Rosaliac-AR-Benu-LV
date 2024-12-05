@@ -51,8 +51,8 @@
     /* Locator Web Light */
     @font-face {
       font-family: "LocatorWeb";
-      src: url("assets/fonts/LocatorWebLight/LocatorWebLight.eot");
-      src: url("assets/fonts/LocatorWebLight/LocatorWebLight.eot?#iefix") format("embedded-opentype"), url("assets/fonts/LocatorWebLight/LocatorWebLight.woff2") format("woff2"), url("assets/fonts/LocatorWebLight/LocatorWebLight.woff") format("woff");
+      src: url("./assets/fonts/LocatorWebLight/LocatorWebLight.eot");
+      src: url("./assets/fonts/LocatorWebLight/LocatorWebLight.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/LocatorWebLight/LocatorWebLight.woff2") format("woff2"), url("./assets/fonts/LocatorWebLight/LocatorWebLight.woff") format("woff");
       font-weight: 200;
       font-style: normal;
       font-display: swap;
@@ -61,8 +61,8 @@
     /* Locator Web Medium */
     @font-face {
       font-family: "LocatorWeb";
-      src: url("assets/fonts/LocatorWebMedium/LocatorWebMedium.eot");
-      src: url("assets/fonts/LocatorWebMedium/LocatorWebMedium.eot?#iefix") format("embedded-opentype"), url("assets/fonts/LocatorWebMedium/LocatorWebMedium.woff2") format("woff2"), url("assets/fonts/LocatorWebMedium/LocatorWebMedium.woff") format("woff");
+      src: url("./assets/fonts/LocatorWebMedium/LocatorWebMedium.eot");
+      src: url("./assets/fonts/LocatorWebMedium/LocatorWebMedium.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/LocatorWebMedium/LocatorWebMedium.woff2") format("woff2"), url("./assets/fonts/LocatorWebMedium/LocatorWebMedium.woff") format("woff");
       font-weight: 400;
       font-style: normal;
       font-display: swap;
@@ -296,19 +296,19 @@
     }
 
     #la-roche.la-roche .es-ingr__single--1 {
-      background-image: url(assets/img/es-ingr-1.png);
+      background-image: url(./assets/img/es-ingr-1.png);
     }
 
     #la-roche.la-roche .es-ingr__single--2 {
-      background-image: url(assets/img/es-ingr-2.png);
+      background-image: url(./assets/img/es-ingr-2.png);
     }
 
     #la-roche.la-roche .es-ingr__single--3 {
-      background-image: url(assets/img/es-ingr-3.png);
+      background-image: url(./assets/img/es-ingr-3.png);
     }
 
     #la-roche.la-roche .es-ingr__single--4 {
-      background-image: url(assets/img/es-ingr-4.png);
+      background-image: url(./assets/img/es-ingr-4.png);
     }
 
     #la-roche.la-roche .es-ingr__name {
@@ -396,7 +396,7 @@
     #la-roche.la-roche .es-cross__single {
       display: flex;
       flex-direction: row-reverse;
-      justify-content: space-around;
+      justify-content: center;
       align-items: center;
       max-height: 400px;
       position: static;
@@ -430,6 +430,9 @@
       top: 220px;
       right: 66px;
       z-index: 2;
+    }
+    #la-roche.la-roche .es-cross__single--2 .es-cross__content {
+      margin-left: 5px
     }
 
     #la-roche.la-roche .es-cross__single--3 {
@@ -501,19 +504,19 @@
     }
 
     #la-roche.la-roche .es-obligations__single--1 {
-      background-image: url(assets/img/obligations-bg-1.png);
+      background-image: url(./assets/img/obligations-bg-1.png);
     }
 
     #la-roche.la-roche .es-obligations__single--2 {
-      background-image: url(assets/img/obligations-bg-2.png);
+      background-image: url(./assets/img/obligations-bg-2.png);
     }
 
     #la-roche.la-roche .es-obligations__single--3 {
-      background-image: url(assets/img/obligations-bg-3.png);
+      background-image: url(./assets/img/obligations-bg-3.png);
     }
 
     #la-roche.la-roche .es-obligations__single--4 {
-      background-image: url(assets/img/obligations-bg-4.png);
+      background-image: url(./assets/img/obligations-bg-4.png);
     }
 
     #la-roche.la-roche .es-obligations__text {
@@ -550,7 +553,7 @@
       }
 
       #la-roche.la-roche .es-use {
-        background-image: url(assets/img/bg-es-use.png);
+        background-image: url(./assets/img/bg-es-use.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: right;
@@ -610,7 +613,7 @@
       #la-roche.la-roche .es-kv {
         justify-content: space-between;
         align-items: center;
-        background-image: url(assets/img/bg-es-kv.png);
+        background-image: url(./assets/img/bg-es-kv.png);
         background-repeat: no-repeat;
         background-size: 40%;
         background-position-x: 84%;
@@ -631,7 +634,7 @@
       }
 
       #la-roche.la-roche .es-results {
-        background-image: url(assets/img/bg-es-effects.png);
+        background-image: url(./assets/img/bg-es-effects.png);
         background-size: cover;
         background-position: 36%;
         padding: 32px 10px 32px 150px;
@@ -655,7 +658,7 @@
       }
 
       #la-roche.la-roche .es-cross {
-        background-image: url(assets/img/bg-es-cross.png);
+        background-image: url(./assets/img/bg-es-cross.png);
         background-repeat: no-repeat;
         background-size: 85%;
         background-position: bottom center;
@@ -748,7 +751,7 @@
 <body>
   <div id="la-roche" class="la-roche">
     <div class="es-kv">
-      <img class="es-kv__brand" src="assets/img/la-roche-posay-logo.png" alt="" />
+      <img class="es-kv__brand" src="./assets/img/la-roche-posay-logo.png" alt="" />
       <div class="es-kv__content">
         <div class="es-kv__text">
           <p class="es-kv__title">
@@ -760,7 +763,7 @@
         </div>
       </div>
       <div class="es-kv__packshot">
-        <img src="assets/img/es-kv-packshot.png" alt="" />
+        <img src="./assets/img/es-kv-packshot.png" alt="" />
       </div>
     </div>
 
@@ -773,14 +776,14 @@
       </p>
       <div class="es-effects__icons">
         <div class="es-effects__single">
-          <img src="assets/img/tick-icon.png" alt="" />
+          <img src="./assets/img/tick-icon.png" alt="" />
           <p class="es-effects__text">
             NEKAVĒJOTIES <br />MAZINA APSĀRTUMU
           </p>
         </div>
 
         <div class="es-effects__single">
-          <img src="assets/img/tick-icon.png" alt="" />
+          <img src="./assets/img/tick-icon.png" alt="" />
           <p class="es-effects__text">
             NOMIERINA ĀDU<br />
             UN ATJAUNO<br />KOMFORTA SAJŪTU
@@ -788,26 +791,26 @@
         </div>
 
         <div class="es-effects__single">
-          <img src="assets/img/tick-icon.png" alt="" />
+          <img src="./assets/img/tick-icon.png" alt="" />
           <p class="es-effects__text">
             UZTUR PAREIZU <br />MITRUMA LĪMENI UN<br />REĢENERĒ ĀDU
           </p>
         </div>
 
         <div class="es-effects__single">
-          <img src="assets/img/tick-icon.png" alt="" />
+          <img src="./assets/img/tick-icon.png" alt="" />
           <p class="es-effects__text">MAZINA ASINSVADU<br />REDZAMĪBU </p>
         </div>
 
         <div class="es-effects__single">
-          <img src="assets/img/tick-icon.png" alt="" />
+          <img src="./assets/img/tick-icon.png" alt="" />
           <p class="es-effects__text">
             MAZINA KŅUDĒŠANAS <br />(-72%*) UN SAVILKUMA<br />SAJŪTU
           </p>
         </div>
 
         <div class="es-effects__single">
-          <img src="assets/img/tick-icon.png" alt="" />
+          <img src="./assets/img/tick-icon.png" alt="" />
           <p class="es-effects__text">
             MAZINA ĀDAS<br />
             LOBĪŠANOS (-92%*)
@@ -914,7 +917,7 @@
     </div>
     <div class="es-cross">
       <div class="es-cross__single es-cross__single--1">
-        <img src="assets/img/es-cross-1.png" alt="" />
+        <img src="./assets/img/es-cross-1.png" alt="" />
         <div class="es-cross__content">
           <p class="es-cross__number">1</p>
           <p class="es-cross__name">
@@ -938,11 +941,11 @@
           <p class="es-cross__desc">intensīva koriģējoša kopšana</p>
           <a href="https://www.benu.lv/e-aptieka/skaistums-un-adas-kopsana/sejas-kopsana/kremi/la-roche-posay-toleriane-rosaliac-ar-koncentrats-40ml" target="_blank" class="es-cross__link">Uzzini vairāk</a>
         </div>
-        <img src="assets/img/es-cross-2.png" alt="" />
+        <img src="./assets/img/es-cross-2.png" alt="" />
       </div>
 
       <div class="es-cross__single es-cross__single--3">
-        <img src="assets/img/es-cross-3.png" alt="" />
+        <img src="./assets/img/es-cross-3.png" alt="" />
         <div class="es-cross__content">
           <p class="es-cross__number">3</p>
           <p class="es-cross__name">
